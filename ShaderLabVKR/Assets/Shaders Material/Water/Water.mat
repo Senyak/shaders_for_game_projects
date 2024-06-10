@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: ca47c003383bb7049909d99d92e3e275, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 2800000, guid: fbffa65365769ef459dc7470e5d9c24e, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: ed85f60804e48dd41aa686a0c1598505, type: 3}
+        m_Scale: {x: 2, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceDistortion:
+        m_Texture: {fileID: 2800000, guid: fbffa65365769ef459dc7470e5d9c24e, type: 3}
+        m_Scale: {x: 3, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceNoise:
+        m_Texture: {fileID: 2800000, guid: ed85f60804e48dd41aa686a0c1598505, type: 3}
+        m_Scale: {x: 2, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DepthFactor: 2.54
+    - _DepthMaxDistance: 22
+    - _DetailNormalMapScale: 1
+    - _DistortionAmount: 0.04
+    - _DstBlend: 0
+    - _FoamDistance: 28.2
+    - _FoamMaxDistance: 3.07
+    - _FoamMaxWidth: 4
+    - _FoamMinDistance: 19.64
+    - _FoamMinWidth: 3.4
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaxDepth: 22
+    - _MaxDistance: 22
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAmount: 0.656
+    - _NoiseValue: 0.69
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SurfaceDistortionAmount: 0.04
+    - _SurfaceNoiseCutoff: 0.69
+    - _UVSec: 0
+    - _WaveAmp: 0.83
+    - _WaveSpeed: 23.26
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.16353858, g: 0.6101383, b: 0.8415094, a: 1}
+    - _DepthGradientBright: {r: 1, g: 1, b: 1, a: 0.6}
+    - _DepthGradientDark: {r: 0.5, g: 0.5, b: 0.5, a: 0.7}
+    - _DepthGradientDeep: {r: 0.089134924, g: 0.4415095, b: 0.27224746, a: 0.79607844}
+    - _DepthGradientShallow: {r: 0.76219845, g: 1, b: 0.5568628, a: 0.7254902}
+    - _EdgeColor: {r: 0.16981131, g: 0.111178346, b: 0.111178346, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 0.98028404, g: 1, b: 0.8117647, a: 0.8627451}
+    - _GradientBright: {r: 0.7607843, g: 1, b: 0.5568628, a: 0.7254902}
+    - _GradientDark: {r: 0.09019608, g: 0.44313726, b: 0.27058825, a: 0.79607844}
+    - _NoiseScrollSpeed: {r: 0.03, g: 0.03, b: 0, a: 0}
+    - _ScrollSpeed: {r: 0.02, g: 0.01, b: 0, a: 0}
+    - _SurfaceNoiseScroll: {r: 0.02, g: 0.02, b: 0, a: 0}
+  m_BuildTextureStacks: []
